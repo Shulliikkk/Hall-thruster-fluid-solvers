@@ -1,3 +1,0 @@
-/mnt/c/Users/konst/documents/fluid_models/build/CMakeFiles/thruster.dir
-/mnt/c/Users/konst/documents/fluid_models/build/CMakeFiles/edit_cache.dir
-/mnt/c/Users/konst/documents/fluid_models/build/CMakeFiles/rebuild_cache.dir
