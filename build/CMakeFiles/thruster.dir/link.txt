@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/thruster.dir/src/electricity.cpp.o CMakeFiles/thruster.dir/src/walls.cpp.o CMakeFiles/thruster.dir/src/solver.cpp.o CMakeFiles/thruster.dir/src/main.cpp.o -o thruster 
