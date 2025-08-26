@@ -1,0 +1,3 @@
+D:/programming/shulgin/fluid_models/build/CMakeFiles/thruster.dir
+D:/programming/shulgin/fluid_models/build/CMakeFiles/edit_cache.dir
+D:/programming/shulgin/fluid_models/build/CMakeFiles/rebuild_cache.dir
