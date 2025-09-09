@@ -1,8 +1,10 @@
-cmake_minimum_required(VERSION 3.10)  # Минимальная версия CMake
-project(fluid_models)                 # Название проекта
-
+cmake_minimum_required(VERSION 3.10)  
+project(fluid_models)        
 file(COPY "magnetic_field_distribution.csv"
 DESTINATION ${CMAKE_BINARY_DIR})
+
+add_compile_options(-O3)
+add_compile_options(-ffast-math)
 
 add_executable(thruster
 	src/params.cpp
@@ -10,7 +12,6 @@ add_executable(thruster
 	src/discharge.cpp
 	src/walls.cpp
 	src/solve.cpp
-	src/main.cpp)  # Создаём исполняемый файл
+	src/main.cpp) 
 
-include_directories("include" "include/csv" "include/eigen" "include/JustInterp") # "include/csv")  # Линкуем Eigen
-
+include_directories("include" "include/csv" "include/eigen" "include/JustInterp")
