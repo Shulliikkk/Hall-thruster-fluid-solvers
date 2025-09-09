@@ -44,7 +44,6 @@ void magfld::set_magnetic_field(std::string case_name) try {
         }
     }
     else if (case_name == "tabulated-distributed") {
-        //rapidcsv::Document magflddist("magnetic_field_distribution.csv");
         // ДОПИСАТЬ
     }
     else {
@@ -101,5 +100,3 @@ void sim::set_sim_params(double sim_area_len, double sim_time, double sp_step, d
     sim::spatial_steps = static_cast<std::size_t>(sim::simulation_area_length / spatial_step);
     sim::simulation_area_steps =  static_cast<std::size_t>(geom::channel_length / sim::spatial_step);
 }
-
-
